@@ -1,0 +1,196 @@
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*PAGE 1 */
+.parent {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.p1RedBox {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.p1BlueBox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.p1YellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*PAGE 2*/
+
+.parent2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.p2RedBox {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+}
+
+.p2BlueBox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+}
+
+.p2YellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 320px;
+}
+
+/*PAGE 3*/
+
+.parent3 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3RedBox {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 270px;
+}
+
+.p3BlueBox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 130px;
+}
+
+.p3YellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 230px;
+}
+
+/*PAGE 4*/
+.parent4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.p4RedBox {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 750px;
+    left: 500px;
+
+}
+
+.p4BlueBox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 685px;
+    left: 630px;
+}
+
+.p4YellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 680px;
+    left: 400px;
+}
+
+/*PAGE 5*/
+.parent5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 230px;
+
+}
+
+.p5RedBox {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.p5BlueBox {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+
+}
+
+.p5YellowBox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top:120px;
+}
